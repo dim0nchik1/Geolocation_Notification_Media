@@ -61,7 +61,8 @@ export default class WidgetTimeLine {
   }
 
   toggleControls() {
-    this.controlBar.children.forEach((constrolBarEl) =>
+    const control = Array.from(this.controlBar.children);
+    control.forEach((constrolBarEl) =>
       constrolBarEl.classList.toggle("hidden")
     );
   }

@@ -193,5 +193,5 @@ button:focus {
 }
 
 .hidden {
-    display: flex;
+    display: none;
 }
